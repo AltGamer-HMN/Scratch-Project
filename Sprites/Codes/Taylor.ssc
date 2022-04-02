@@ -1,0 +1,5 @@
+when :flag: pressed                       when :arrow right: pressed
+teleport to x(-137) y(18)                 swim to (mouse cursor)
+switch to (Circles)                       swim to (end of map)
+wait for \arrow right/   				  show:false:
+										  switch to (Blue Sky)

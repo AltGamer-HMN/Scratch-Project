@@ -1,0 +1,13 @@
+when :flag: pressed
+show:false:
+
+when bg is (Blue Sky>)
+show:true:
+
+when (space) pressed
+goto x: (-191) y: (-109)
+repeat but end when (at end of map) {
+goto x: ((current x pos.) + (1)) y: (-109)
+wait (give random from (0.001) to (1)) seconds
+}
+stop(all)
